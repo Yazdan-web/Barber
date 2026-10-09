@@ -53,6 +53,8 @@ li {
   }
   .contact a {
     color: #ffffff;
+    /*رنگ سفید*/
     text-decoration: none;
+    /*زیر خط پیشفرض مرورگر را حذف کن*/
   }
 }
