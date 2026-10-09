@@ -1,0 +1,58 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #101010;
+  /* رنگ دیوارها: مشکی */
+  color: #ffffff;
+  /* رنگ نوشته‌سفید */
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+p {
+  font-size: 16px;
+  color: #ffffff;
+}
+li {
+  font-size: 18px;
+  color: #ffffff;
+}
+.service li {
+  list-style: none;
+  /*نقطه های پیشفرض را حذف کن*/
+}
+.service h2, .about h2, .contact h2 {
+  background: #d4af37;
+  /*پس زمینه شیشه ای*/
+  border: 1px solid #d4af37;
+  /* قاب طلایی دور برگه*/
+  border-radius: 999px;
+  /*گوشه های گرد*/
+  padding: 10px;
+  /*فاصله داخلی تا متن به قاب نچسبد*/
+  margin-bottom: 10px;
+  /*فاصله بین برگه ها*/
+  width: auto;
+}
+  .card {
+    background: #252525;
+    border: 10px solid #252525;
+    /*قاب طلایی دور برگه*/
+    border-radius: 10px;
+    /*گوشه های گرد*/
+    
+  }
+  .contact a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
